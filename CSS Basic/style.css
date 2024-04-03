@@ -1,0 +1,36 @@
+body  {
+   
+}
+div {
+    text-align: center;
+    /* border: solid purple; */
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.red {
+    width: 500px;
+    height: 30px;
+    background-color: red;
+    color: aliceblue;
+}
+
+#yellow {
+    width: 500px;
+    height: 30px;
+    background-color: yellow;
+    color: aliceblue;
+}
+
+#green {
+    width: 500px;
+    height: 30px;
+    background-color: green;
+}
+
+#blue {
+    width: 500px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
