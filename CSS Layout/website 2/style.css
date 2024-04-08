@@ -1,0 +1,198 @@
+/* Rest CSS */
+
+* {
+    /* border: solid ; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+
+body {
+    /* border: solid red; */
+    font-family: poppins, sans-serif;
+    background-color: #473232;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    padding: 5px;
+    text-align: center;
+    background: rgb(39, 28, 28);
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+/* Navigation Styles */
+
+nav {
+    overflow: hidden;
+    background: #1d1c1c;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3 ease;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+nav a:last-child {
+    /* border: solid red; */
+    float: right;
+}
+
+nav img {
+    width: 60px;
+    margin-bottom: -40px;
+    position: relative;
+    bottom: 20px;
+}
+
+/* Main Content Styles */
+main {
+    /* border: solid green; */
+    background-color: #1d1c1c;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.row {
+    /* border: solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftcolumn {
+    flex: 75%;
+}
+
+.rightcolumn {
+    flex: 25%;
+}
+
+/* Fake Image Styles */
+.fakeimg {
+    /* border: solid red; */
+    background-color: #0f0c0c;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+#news1 {
+    background-image: url('assets/OIP.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+#news2 {
+    background-image: url('assets/jadwal-timnas-indonesia-u-20-vs-timnas-prancis-u-20-ivar-jenner-dan-justin-hubner-sanggup-jadi-pembeda-nMNo3oBpWA.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+#news3 {
+    background-image: url('assets/OIF.jpg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+/* Adjusting fake image in right column */
+
+.rightcolumn .fakeimg {
+    height: 100px;
+    /* adjustin when is needed */
+}
+
+/* Card Styles */
+.card {
+    background-color: #070000;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #1d1c1c;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.5;
+
+    color: #1d1c1c;
+}
+/* Footer Syles */
+footer {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgb(39, 28, 28);
+    margin-top: 20px;
+    color: #fff;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 18px;;
+}
+
+.social-media-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.social-media-item {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.social-media-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: opacity 0.3 ease-in-out;
+}
+
+.social-media-link:hover {
+    opacity: 0.8;
+}
