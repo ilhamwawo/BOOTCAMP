@@ -1,0 +1,12 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}

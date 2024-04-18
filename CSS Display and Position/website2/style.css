@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100px;
+}
+
+section {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+section div {
+    /* border: solid green; */
+    width: auto;
+}
+
+section div img {
+    /* border: solid red; */
+    width: 300px;
+
+}
+
